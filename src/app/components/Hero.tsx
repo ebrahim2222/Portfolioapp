@@ -1,19 +1,19 @@
-import { motion } from 'motion/react';
-import { Github, Linkedin, Mail, ArrowDown, Download } from 'lucide-react';
+import { ArrowDown, Download, Github, Linkedin, Mail } from "lucide-react";
+import { motion } from "motion/react";
 
 export function Hero() {
   const handleDownloadCV = () => {
     // Create a link to download the CV
-    const link = document.createElement('a');
-    link.href = '/cv/Ebrahim_El-Bitawy_CV.pdf';
-    link.download = 'Ebrahim_El-Bitawy_CV.pdf';
+    const link = document.createElement("a");
+    link.href = "/cv/Ebrahim_Elbitawy_CV.pdf";
+    link.download = "Ebrahim_Elbitawy_CV.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
+    <section className="min-h-[80vh] flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
         <motion.div
@@ -26,7 +26,7 @@ export function Hero() {
           transition={{
             duration: 8,
             repeat: Infinity,
-            ease: "easeInOut"
+            ease: "easeInOut",
           }}
         />
         <motion.div
@@ -39,7 +39,7 @@ export function Hero() {
           transition={{
             duration: 10,
             repeat: Infinity,
-            ease: "easeInOut"
+            ease: "easeInOut",
           }}
         />
       </div>
@@ -58,7 +58,7 @@ export function Hero() {
               transition={{ delay: 0.2, type: "spring", stiffness: 200 }}
             >
               <div className="w-32 h-32 rounded-full bg-gradient-to-br from-purple-400 to-blue-400 flex items-center justify-center text-white text-4xl font-bold mx-auto">
-                EB
+                EE
               </div>
             </motion.div>
 
@@ -68,7 +68,7 @@ export function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3, duration: 0.8 }}
             >
-              Ebrahim El-Bitawy
+              Ebrahim Elbitawy
             </motion.h1>
 
             <motion.p
@@ -86,8 +86,9 @@ export function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5, duration: 0.8 }}
             >
-              Building high-quality, scalable mobile and web applications with over 4 years of experience.
-              Passionate about creating seamless user experiences.
+              Building high-quality, scalable mobile and web applications with
+              over 4 years of experience. Passionate about creating seamless
+              user experiences.
             </motion.p>
 
             <motion.div
@@ -156,11 +157,17 @@ export function Hero() {
 
       {/* Scroll indicator */}
       <motion.div
-        className="absolute bottom-8 left-1/2 -translate-x-1/2"
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 cursor-pointer"
         animate={{ y: [0, 10, 0] }}
         transition={{ duration: 2, repeat: Infinity }}
+        onClick={() =>
+          document
+            .getElementById("about")
+            ?.scrollIntoView({ behavior: "smooth" })
+        }
       >
-        <ArrowDown className="w-6 h-6 text-white opacity-50" />
+        <span className="text-white text-sm opacity-75">Scroll Down</span>
+        <ArrowDown className="w-6 h-6 text-white opacity-75" />
       </motion.div>
     </section>
   );

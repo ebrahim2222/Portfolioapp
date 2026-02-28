@@ -1,4 +1,4 @@
-import { Heart } from 'lucide-react';
+import { Heart } from "lucide-react";
 
 export function Footer() {
   return (
@@ -7,7 +7,7 @@ export function Footer() {
         <div className="text-center">
           <p className="flex items-center justify-center gap-2 text-slate-400">
             Made with <Heart className="w-4 h-4 text-red-500 fill-red-500" /> by
-            Ebrahim El-Bitawy
+            Ebrahim Elbitawy
           </p>
           <p className="text-slate-500 mt-2">
             © {new Date().getFullYear()} All rights reserved.
