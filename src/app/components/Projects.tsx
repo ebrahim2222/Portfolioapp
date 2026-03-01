@@ -6,7 +6,7 @@ const projects = [
     title: "E-asyLearn",
     description:
       "Educational learning app designed to make learning easy and accessible. Features comprehensive learning modules, progress tracking, and an intuitive user interface built with Flutter and BLoC architecture.",
-    image: "/images/pic02.jpg",
+    image: "images/pic02.jpg",
     tags: ["Flutter", "Dart", "BLoC", "RESTful APIs"],
     playStore:
       "https://play.google.com/store/apps/details?id=com.sdex.easy_learn&hl=en",
@@ -27,7 +27,7 @@ const projects = [
     title: "8Orders Delivery",
     description:
       "Food delivery and vegetable & fruits shopping app built with Flutter. Features include real-time order tracking, menu browsing, and seamless checkout experience.",
-    image: "/images/pic01.png",
+    image: "images/pic01.png",
     tags: ["Flutter", "Firebase", "Real-time Updates", "iOS & Android"],
     playStore:
       "https://play.google.com/store/apps/details?id=com.HadafSolutions.Otlobly&hl=en",
@@ -37,7 +37,7 @@ const projects = [
     title: "KHRS HR",
     description:
       "KHRS1981 is a cutting-edge application designed to streamline and optimize cleaning operations for companies and organizations. Whether you manage office spaces, commercial buildings, or residential complexes, this app helps you ensure spotless rooms and floors with greater efficiency and organization.",
-    image: "/images/hr.webp",
+    image: "images/hr.webp",
     tags: [
       "Flutter",
       "Business Solutions",
@@ -52,7 +52,7 @@ const projects = [
     title: "Ragwa",
     description:
       "Modern mobile application for Ragwa services. Features comprehensive service offerings, intuitive user interface, and seamless customer experience for all your needs.",
-    image: "/images/ragwa.webp",
+    image: "images/ragwa.webp",
     tags: ["Flutter", "Services", "Mobile App", "Customer Experience"],
     playStore:
       "https://play.google.com/store/apps/details?id=com.ra8wa.ra8wa&hl=en",
@@ -62,7 +62,7 @@ const projects = [
     title: "Money Master AccFlex",
     description:
       "Accflex wallet application for financial management. Fast and efficient way to view all transactions with comprehensive ERP system integration.",
-    image: "/images/money.webp",
+    image: "images/money.webp",
     tags: ["Flutter", "ERP Integration", "Financial", "Secure"],
     playStore:
       "https://play.google.com/store/apps/details?id=com.accflex.money_master&hl=en",
@@ -72,7 +72,7 @@ const projects = [
     title: "iRecycle",
     description:
       "Streamline waste management with iRecycle. Comprehensive tool for managing waste efficiently and sustainably, offering seamless solutions for businesses and individuals to handle recycling needs.",
-    image: "/images/iRe.webp",
+    image: "images/iRe.webp",
     tags: ["Flutter", "Environmental", "Waste Management", "Sustainability"],
     playStore:
       "https://play.google.com/store/apps/details?id=net.hadafsolutions.irecycle&hl=en",
@@ -82,7 +82,7 @@ const projects = [
     title: "iRecycle Business (Mostadam)",
     description:
       "Business-focused recycling management solution for companies and organizations. Streamline waste operations, track recycling metrics, and manage sustainable waste disposal efficiently.",
-    image: "/images/iRe.webp",
+    image: "images/iRe.webp",
     tags: ["Flutter", "B2B Solutions", "Waste Management", "Sustainability"],
     playStore:
       "https://play.google.com/store/apps/details?id=hadafsolutions.irecycle.B2B_customer",
@@ -92,7 +92,7 @@ const projects = [
     title: "Souq Mazad",
     description:
       "Online auction and marketplace platform for buying and selling goods. Features real-time bidding, secure transactions, and a user-friendly interface for seamless auction experiences.",
-    image: "/images/pic05.webp",
+    image: "images/pic05.webp",
     tags: ["Flutter", "E-commerce", "Auction Platform", "Real-time Bidding"],
     playStore:
       "https://play.google.com/store/apps/details?id=com.engazTech.mazad&hl=en",
@@ -102,7 +102,7 @@ const projects = [
     title: "Coctail",
     description:
       "Cocktail recipe and mixing guide app. Discover amazing drink recipes, learn mixing techniques, and become a master bartender with comprehensive cocktail collection.",
-    image: "/images/pic03.png",
+    image: "images/pic03.png",
     tags: ["Flutter", "Lifestyle", "Recipes", "Educational"],
     playStore:
       "https://play.google.com/store/apps/details?id=com.sdex.coctail&hl=en",
@@ -112,7 +112,7 @@ const projects = [
     title: "Abu Sliem",
     description:
       "Mobile application for Abu Sliem services and products. Features comprehensive service offerings, user-friendly interface, and seamless customer experience.",
-    image: "/images/pic07.png",
+    image: "images/pic07.png",
     tags: ["Flutter", "Services", "Business", "Customer Experience"],
     playStore:
       "https://play.google.com/store/apps/details?id=com.sdex.abo_sliem",
@@ -122,7 +122,7 @@ const projects = [
     title: "Native Talk Academy",
     description:
       "Educational academy platform for language learning and communication skills. Interactive courses, expert instructors, and comprehensive learning materials for effective language acquisition.",
-    image: "/images/pic09.webp",
+    image: "images/pic09.webp",
     tags: ["Flutter", "Education", "Language Learning", "Communication"],
     playStore:
       "https://play.google.com/store/apps/details?id=com.appnormal.native_talk_academy",
