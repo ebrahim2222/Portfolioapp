@@ -5,7 +5,7 @@ export function Hero() {
   const handleDownloadCV = () => {
     // Create a link to download the CV
     const link = document.createElement("a");
-    link.href = "/cv/Ebrahim_Elbitawy_CV.pdf";
+    link.href = "cv/Ebrahim_Elbitawy_CV.pdf";
     link.download = "Ebrahim_Elbitawy_CV.pdf";
     document.body.appendChild(link);
     link.click();
